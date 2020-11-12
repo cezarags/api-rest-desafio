@@ -1,4 +1,4 @@
-# Transaçoes API com springboot
+# Desafio API transações com springboot
 
 API Restful genérica que realiza transferencia.
 
@@ -20,9 +20,9 @@ API Restful genérica que realiza transferencia.
 
 
 #### application.properties
--[Ativar Compressao} 
+1.Ativar Compressao
 -server.compression.enabled=true
--[Especificar o que tipo deve ser comprimido] 
+2.Especificar o que tipo deve ser comprimido 
 -server.compression.mime-types=application/json
 -Defini um valor mínimo para realizar a compressão (1KB)
 -server.compression.min-response-size=1024
