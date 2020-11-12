@@ -16,13 +16,13 @@ API Restful genérica que realiza transferencia.
 ## Requisitos para execução
  - [JDK 11](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
  - [Maven ](https://maven.apache.org)
- -
+ 
 
 
 #### application.properties
--Ativar Compressao 
+-[Ativar Compressao} 
 -server.compression.enabled=true
--Especificar o que tipo deve ser comprimido 
+-[Especificar o que tipo deve ser comprimido] 
 -server.compression.mime-types=application/json
 -Defini um valor mínimo para realizar a compressão (1KB)
 -server.compression.min-response-size=1024
