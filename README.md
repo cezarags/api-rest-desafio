@@ -9,7 +9,7 @@ API Restful genérica que realiza transferencia.
 
 
 ## Documentação
-- A documentação da API foi gerada com Swagger e está disponível em `http://localhost:8080/banco-api/swagger-ui.html`
+- A documentação da API foi gerada com Swagger e está disponível em `http://localhost:8080/trasacoes/swagger-ui.html`
 
 **OBSERVAÇÃO:** É necessário iniciar a aplicação para ter acesso ao documento.
 
