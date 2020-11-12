@@ -65,8 +65,9 @@ PUT : Utilizado para alterar um recurso
 DELETE: Utilizado para deletar um recurso
 
 ```bash
-A primeira coisa que precisamos fazer é especificar a URI que vamos enviar a chamada e em seguida especificar o método da chamada, no nosso caso Post.
-Em nosso caso devemos enviar parâmetros informados via body(corpo)Ex:
+A primeira coisa que precisamos fazer é especificar a URI que vamos enviar a chamada e em seguida especificar o método da chamada,
+no nosso caso Post.
+Precisamos enviar parâmetros informado via body(corpo) quais dados serão enviados Ex:
 {     
         "valor": 300,
         "dataOperacao": "2020-11-11 22:26"  
