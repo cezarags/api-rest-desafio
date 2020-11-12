@@ -10,6 +10,7 @@ API Restful genérica que realiza transferencia.
 
 ## Documentação
 - A documentação da API foi gerada com Swagger e está disponível em `http://localhost:8080/swagger-ui.html#/transacao-controller`
+![swagger](https://github.com/cezarags/api-rest-desafio/blob/main/swagger-Endpoints.jpg)
 
 **OBSERVAÇÃO:** É necessário iniciar a aplicação para ter acesso ao documento.
 
