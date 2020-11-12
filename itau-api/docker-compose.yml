@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+    itau-api: 
+        image: maven    
+        volumes: 
+            - "./itau-api:/deploy"
+        working_dir: "/deploy"
+        ports: 
+            - "8080:8080"
+        command: bash -c "mvn clean && mvn install && java -jar  target/itau-api-1.0-SNAPSHOT.jar"    
+        container_name JavaAPI    
