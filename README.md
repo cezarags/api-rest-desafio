@@ -49,7 +49,8 @@ No Eclipse,Clique em Arquivo >importar>selecione Projetos Existentes>Procurar>se
 
 ```bash
 
-Voce pode iniciar clicando com o botão direito do mouse no projeto e selecionar Executar como Spring Boot App. Sem o STS, você provavelmente executará o aplicativo na linha de comando com o seguinte comando:
+Voce pode iniciar clicando com o botão direito do mouse no projeto e selecionar Executar como Spring Boot App. 
+Sem o STS, você provavelmente executará o aplicativo na linha de comando com o seguinte comando:
 
 cd api-itau
 mvn spring-boot:run
