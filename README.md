@@ -20,13 +20,13 @@ API Restful genérica que realiza transferencia.
 
 
 #### application.properties
-## Ativar Compressao ##
+ Ativar Compressao ##
 server.compression.enabled=true
-## Especificar o que tipo deve ser comprimido ##
+ Especificar o que tipo deve ser comprimido ##
 server.compression.mime-types=application/json
-## Defini um valor mínimo para realizar a compressão (1KB)
+ Defini um valor mínimo para realizar a compressão (1KB)
 server.compression.min-response-size=1024
-##Caso algum campo receba algum valor nulo não será retornado na lista, assim tem ganho de performace
+Caso algum campo receba algum valor nulo não será retornado na lista, assim tem ganho de performace
 spring.jackson.default-property-inclusion=NON_NULL
 ```
 
