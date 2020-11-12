@@ -42,7 +42,7 @@ spring.jackson.default-property-inclusion=NON_NULL
 git clone https://github.com/cezarags/api-rest-desafio.git
 ```
 
-**2 Importanto o projeto**
+**2. Importanto o projeto**
 No Eclipse,Clique em Arquivo >importar>selecione Projetos Existentes>Procurar>selecionar o local onde realizou o download do clone acima e importar
 
 **3. Executar a aplicação utilizando o maven ou iniciar pelo Eclipse ou STS**
@@ -57,7 +57,7 @@ mvn spring-boot:run
 
 A aplicação pode ser acessada em `http://localhost:8080/transacoes`.
 
-**4 Automatizando testes com Postman, **
+**4. Automatizando testes com Postman**
 
 GET: Utilizado para obter um recurso
 POST: Utilizado para cadastrar uma informação
@@ -76,7 +76,10 @@ Precisamos enviar parâmetros informado via body(corpo) quais dados serão envia
 ```
 ![postman-automatizando testes](https://github.com/cezarags/api-rest-desafio/blob/main/EndpointTransferir.jpg)
 
-Você também pode executar o arquivo no formato .jar, para executar use o seguinte comando
+
+
+
+Alternativa: caso não queira executar o projeto pelo eclipse, também pode executar o arquivo no formato .jar, para executar use o seguinte comando
 
 ```bash
 
