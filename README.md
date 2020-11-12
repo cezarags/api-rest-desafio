@@ -73,11 +73,8 @@ Precisamos enviar parâmetros informado via body(corpo) quais dados serão envia
         "dataOperacao": "2020-11-11 22:26"  
 }
 
-![postman-automatizando testes](https://github.com/cezarags/api-rest-desafio/blob/main/EndpointTransferir.jpg)
-
-
-
 ```
+![postman-automatizando testes](https://github.com/cezarags/api-rest-desafio/blob/main/EndpointTransferir.jpg)
 
 Você também pode executar o arquivo no formato .jar, para executar use o seguinte comando
 
